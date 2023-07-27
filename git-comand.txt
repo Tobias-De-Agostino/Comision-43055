@@ -1,0 +1,25 @@
+git clone <URL_del_repositorio>: Clona un repositorio existente de GitHub en tu máquina local.
+
+git init: Inicializa un nuevo repositorio de Git en tu máquina local.
+
+git add <nombre_archivo>: Agrega cambios de un archivo específico al área de preparación.
+
+git add .: Agrega todos los archivos modificados al área de preparación.
+
+git commit -m "Mensaje del commit": Confirma los cambios en el área de preparación y crea una nueva revisión en la historia del repositorio.
+
+git push origin <nombre_rama>: Envía los cambios confirmados al repositorio remoto en GitHub.
+
+git pull origin <nombre_rama>: Obtiene los últimos cambios desde GitHub y actualiza el repositorio local.
+
+git status: Muestra el estado actual de los archivos en el repositorio (cambios sin confirmar y archivos listos para ser confirmados).
+
+git log: Muestra el historial de cambios y las confirmaciones realizadas en el repositorio.
+
+git branch <nombre_rama>: Crea una nueva rama (branch) en el repositorio.
+
+git checkout <nombre_rama>: Cambia de rama y comienza a trabajar en una rama específica.
+
+git merge <nombre_rama>: Combina los cambios de una rama con otra.
+
+git branch -d <nombre_rama>: Elimina una rama después de que los cambios se hayan incorporado en otras ramas.
